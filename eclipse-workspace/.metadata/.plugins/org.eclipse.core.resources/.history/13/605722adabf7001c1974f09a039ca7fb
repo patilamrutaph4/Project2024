@@ -1,0 +1,15 @@
+package CollectionConcepts;
+
+import java.util.LinkedList;
+
+public class LinkedListPractice {
+public static void main(String[] args) {
+	LinkedList ll=new LinkedList();
+	  ll.add(15);    // 0
+      ll.add("ABC"); // 1
+      ll.add('A');   // 2
+      ll.add(25);    //3
+      
+      System.out.println(ll);
+}
+}

@@ -1,0 +1,38 @@
+package Askedcode;
+
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
+
+public class DropDownHandling {
+
+public static void main(String[] args) throws InterruptedException {
+	System.setProperty("webdriver.chrome.driver", "C:\\Users\\Dell\\OneDrive\\Desktop\\chromedriver_win32\\chromedriver_win32\\chromedriver.exe");
+	WebDriver driver=new ChromeDriver();
+	driver.get("https://jqueryui.com/selectmenu");
+	driver.manage().window().maximize();
+	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	//Thread.sleep(2000);
+	WebElement ifa =driver.findElement(By.xpath("//iframe[@class='demo-frame']"));
+	driver.switchTo().frame(ifa);
+	//WebElement speed=driver.findElement(By.id("speed"));
+	
+	WebElement downarrow= driver.findElement(By.xpath("//fieldset//span[@class='ui-selectmenu-icon ui-icon ui-icon-triangle-1-s']"));
+	downarrow.click();
+	List<WebElement> opt=new List<WebElement>();
+	
+	
+	WebElement faster=driver.findElement(By.xpath("//div//ul//li//div[@id='ui-id-5']"));
+	Select s=new Select (faster);
+	
+	
+	
+}	
+}

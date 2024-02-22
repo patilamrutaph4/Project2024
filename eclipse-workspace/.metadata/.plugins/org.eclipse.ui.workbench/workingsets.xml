@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1657445021229_0" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1657445021249_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1674990154977_4" label="CucumberJava" name="CucumberJava">
+<item elementID="=CucumberJava" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1675000667403_5" label="CucumberJava2" name="CucumberJava2">
+<item elementID="=CucumberJava2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1675009648600_7" label="CuJava" name="CuJava">
+<item elementID="=CuJava" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1657445021701_2" label="Window Working Set" name="Aggregate for window 1652026234173"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1674990044904_3" label="Multiple Working Sets" name="Aggregate:Java Main Sources:Java Test Sources:">
+<workingSet IMemento.internal.id="Java Main Sources"/>
+<workingSet IMemento.internal.id="Java Test Sources"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1675001014147_6" label="Multiple Working Sets" name="Aggregate:CucumberJava:CucumberJava2:">
+<workingSet IMemento.internal.id="CucumberJava"/>
+<workingSet IMemento.internal.id="CucumberJava2"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1675010132744_8" label="Multiple Working Sets" name="Aggregate:CucumberJava2:CuJava:">
+<workingSet IMemento.internal.id="CucumberJava2"/>
+<workingSet IMemento.internal.id="CuJava"/>
+</workingSet>
+<mruList name="CuJava"/>
+<mruList name="CucumberJava2"/>
+<mruList name="CucumberJava"/>
+</workingSetManager>

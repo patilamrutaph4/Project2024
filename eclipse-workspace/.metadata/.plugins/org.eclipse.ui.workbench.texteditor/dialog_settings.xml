@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<item key="selection" value="sucessfully"/>
+		<list key="findhistory">
+			<item value="&#x09;System.setProperty(&quot;webdriver.chrome.driver&quot;, &quot;C:\\Users\\Dell\\OneDrive\\Desktop\\chromedriver_win32\\chromedriver_win32\\chromedriver.exe&quot;);"/>
+			<item value="sucessfully"/>
+			<item value="a.length"/>
+			<item value="LinkedList"/>
+			<item value="ll"/>
+			<item value="list"/>
+			<item value="hl"/>
+			<item value="vl"/>
+			<item value="MockW11"/>
+		</list>
+		<list key="replacehistory">
+			<item value="sucessfully"/>
+			<item value="c"/>
+			<item value="Vector"/>
+			<item value="Vec"/>
+			<item value="list1"/>
+			<item value="vl"/>
+			<item value="hl"/>
+			<item value="pl"/>
+			<item value="Cuboid"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="801"/>
+		<item key="DIALOG_Y_ORIGIN" value="217"/>
+		<item key="DIALOG_WIDTH" value="336"/>
+		<item key="DIALOG_HEIGHT" value="454"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

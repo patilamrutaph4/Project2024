@@ -17,6 +17,11 @@ public class CollectionExamples {
 		
 		System.out.println("ArrayList is " + list);
 		
+		Iterator itr=list.iterator();
+		while(itr.hasNext()){
+			System.err.println(itr.next());
+		}
+		
 		
 		
 	}

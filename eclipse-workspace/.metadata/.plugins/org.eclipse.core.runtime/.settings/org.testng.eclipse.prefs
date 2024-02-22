@@ -1,0 +1,5 @@
+30thAprilTestNG.outdir=test-output
+30thAprilTestNGPractice.outdir=test-output
+30thAprilTestNGPracticepreDefinedListeners=Basics
+30thAprilTestNGxmlTemplateFile=basics
+eclipse.preferences.version=1

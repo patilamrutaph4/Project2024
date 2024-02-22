@@ -1,0 +1,17 @@
+package CollectionConcepts;
+
+public class HashsetPractice {
+public static void main(String[] args) {
+		
+		HashSet <String> set = new HashSet <String>();
+		
+		// adding the data to hashset.
+		set.add("one");
+		set.add("two");
+		set.add("three");
+		set.add("four");
+		set.add("five");
+		
+		System.out.println(set);
+		
+}

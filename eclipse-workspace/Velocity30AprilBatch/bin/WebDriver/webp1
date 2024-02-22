@@ -1,0 +1,16 @@
+<html>
+<body>
+<div>
+User Name<input type="text"><br><br>
+Password <input type="text"><br><br><br>
+</div>
+<div>
+Male<input type="radio"><br><br>
+Female<input type="radio"><br><br><br>
+</div>
+<div>
+<a href="https://www.myworld.com">Forgot Password </a><br><br>
+<a href="https://www.myworld.com">Reset Account </a><br><br><br>
+</div>
+</body>
+</html>

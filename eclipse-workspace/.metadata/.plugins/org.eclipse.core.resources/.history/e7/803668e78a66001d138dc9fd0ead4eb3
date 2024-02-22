@@ -1,0 +1,14 @@
+package Extra;
+
+public class Stringswapping {
+public static void main(String [] args) {
+	
+	String s1="Java Programming";
+	String worlds[]=s1.split(" "); 
+	System.out.println(worlds.length);
+	for(int i=0;i<worlds.length;i++) {
+		System.out.println(worlds[i]);
+	}
+	
+}
+}

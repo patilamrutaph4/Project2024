@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Logged in to the application]]>
+    </line>
+    <line>
+      <![CDATA[Started Testing of ProfilePage Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Tested ProfilePage Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Logged out from the application]]>
+    </line>
+    <line>
+      <![CDATA[Logged in to the application]]>
+    </line>
+    <line>
+      <![CDATA[Tested Home Page Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Logged out from the application]]>
+    </line>
+    <line>
+      <![CDATA[Logged in to the application]]>
+    </line>
+    <line>
+      <![CDATA[Tested NotificationPage Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Logged out from the application]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-04-13T21:12:03 IST" name="Default suite" finished-at="2023-04-13T21:12:03 IST" duration-ms="120">
+    <groups>
+    </groups>
+    <test started-at="2023-04-13T21:12:03 IST" name="Default test" finished-at="2023-04-13T21:12:03 IST" duration-ms="120">
+      <class name="veloc30Apriltg.annotationPractice">
+        <test-method is-config="true" signature="login()[pri:0, instance:veloc30Apriltg.annotationPractice@73700b80]" started-at="2023-04-13T21:12:03 IST" name="login" finished-at="2023-04-13T21:12:03 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="profilePageTest()[pri:1, instance:veloc30Apriltg.annotationPractice@73700b80]" started-at="2023-04-13T21:12:03 IST" name="profilePageTest" finished-at="2023-04-13T21:12:03 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged in to the application]]>
+            </line>
+            <line>
+              <![CDATA[Started Testing of ProfilePage Sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[Tested ProfilePage Sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[Logged out from the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- profilePageTest -->
+        <test-method signature="homePageTest()[pri:2, instance:veloc30Apriltg.annotationPractice@73700b80]" started-at="2023-04-13T21:12:03 IST" name="homePageTest" finished-at="2023-04-13T21:12:03 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged in to the application]]>
+            </line>
+            <line>
+              <![CDATA[Tested Home Page Sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[Logged out from the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- homePageTest -->
+        <test-method signature="notificationPageTest()[pri:3, instance:veloc30Apriltg.annotationPractice@73700b80]" started-at="2023-04-13T21:12:03 IST" name="notificationPageTest" finished-at="2023-04-13T21:12:03 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged in to the application]]>
+            </line>
+            <line>
+              <![CDATA[Tested NotificationPage Sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[Logged out from the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- notificationPageTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:veloc30Apriltg.annotationPractice@73700b80]" started-at="2023-04-13T21:12:03 IST" name="logout" finished-at="2023-04-13T21:12:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- veloc30Apriltg.annotationPractice -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

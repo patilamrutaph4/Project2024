@@ -1,0 +1,16 @@
+package ConstructorPractice;
+
+public class ConstructorMain {
+	
+public static void main(String[] args) {
+
+	ConstructorPractice d=new ConstructorPractice();
+	d.test();
+	
+	
+	ConstructorPractice d1=new ConstructorPractice();
+	d1.test(25,"fake");
+	
+	
+}
+}

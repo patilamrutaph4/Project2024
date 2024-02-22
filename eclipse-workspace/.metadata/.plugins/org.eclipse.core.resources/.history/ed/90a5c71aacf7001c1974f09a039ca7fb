@@ -1,0 +1,30 @@
+package CollectionConcepts;
+
+import java.util.LinkedList;
+
+public class LinkedListPractice {
+public static void main(String[] args) {
+	LinkedList ll=new LinkedList();
+	  ll.add(15);    // 0
+      ll.add("ABC"); // 1
+      ll.add('A');   // 2
+      ll.add(25);    //3
+      
+      System.out.println(ll);
+      // Modifying linkedlist
+      ll.add(2, 'B');
+      System.out.println(ll);
+      
+      // Data replace
+      ll.set(1, "XYZ");
+      System.out.println(ll);
+   
+      // data remove.
+      ll.remove(3);
+      System.out.println(ll);
+      
+      ll.add(null);
+      ll.add(null);
+      ll.add(null);
+}
+}

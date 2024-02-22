@@ -1,0 +1,89 @@
+package WebDriver;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+
+public class FacebookSignup {
+public static void main(String[] args) throws InterruptedException {
+	
+	System.setProperty("webdriver.chrome.driver", "C:\\Users\\Dell\\OneDrive\\Desktop\\chromedriver_win32\\chromedriver.exe");
+	WebDriver driver=new ChromeDriver();
+	driver.get("https://www.facebook.com/signup");
+	
+	
+	
+	
+	WebElement FristName = driver.findElement(By.xpath("//input[@class='inputtext _58mg _5dba _2ph-'and @name='firstname']"));// 
+    FristName.sendKeys("Amruta");
+    
+    WebElement LastName = driver.findElement(By.xpath("//input[@class='inputtext _58mg _5dba _2ph-'and @name='lastname']"));// 
+    LastName.sendKeys("Patil");
+    
+    WebElement MobileNo = driver.findElement(By.xpath("//input[ @class='inputtext _58mg _5dba _2ph-' and @name='reg_email__']"));// 
+    MobileNo.sendKeys("7507977277");
+	
+    WebElement NewPassword = driver.findElement(By.xpath("//input[@class='inputtext _58mg _5dba _2ph-' and @name='reg_passwd__' ]"));// 
+    NewPassword.sendKeys("30thAprilBatch!");
+	
+   // driver.findElement(By.xpath("//select[@aria-label='Day' and @class='_9407 _5dba _9hk6 _8esg']"));
+ 	
+    WebElement Female = driver.findElement(By.xpath("//label[text()='Female' ]"));
+    Female.click();
+    
+    WebElement SignUp = driver.findElement(By.xpath("//button[@type='submit' and @class='_6j mvm _6wk _6wl _58mi _3ma _6o _6v' ]"));// 
+    SignUp.click();
+    
+    driver.manage().window().maximize();
+    Thread.sleep(2000);
+	//driver.findElement(By.xpath("//a[text()='Sign Up']")).click();
+    
+	
+	WebElement days = driver.findElement(By.xpath("//select[@name='birthday_day']"));
+	
+	// create the object of select class.
+	Select s = new Select(days);
+	
+	// 1. select by index. (0 --> n-1)
+	//s.selectByIndex(25);
+	
+	//2. select by value
+	//s.selectByValue("26");
+	
+	//3. select by visible text.
+	s.selectByVisibleText("05");
+	
+	
+	WebElement years = driver.findElement(By.xpath("//select[@name='birthday_year']"));
+	
+	Select s1 = new Select(years);
+	s1.selectByVisibleText("1986");
+	
+	
+	// if you want to check all the options inside the list.
+//	 List<WebElement> listofyrs = s1.getOptions();
+//	 System.out.println("Total Number of Years avialbale:- "+listofyrs.size());
+
+//	for(int i=0;i<listofyrs.size();i++) {
+//		String year = listofyrs.get(i).getText();
+//		System.out.println(year);
+//	}
+//	
+	 
+	 // if you want to check default selected value.
+	String firstopt = s1.getFirstSelectedOption().getText();
+	System.out.println(firstopt);
+   
+
+	
+	
+	//WebElement days = driver.findElement(By.xpath("//select[@name='birthday_day']"));
+}
+
+}
+
