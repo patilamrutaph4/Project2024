@@ -15,9 +15,9 @@ public class CollectionExamples {
 		list.add("Mugdha");
 		list.add("Gaikwad");
 		System.out.println(list.size());
-		System.out.println(list.get(2);
-		System.out.println(list.add(8,"Pramod"));
-		System.out.println(list.add(9,"Gaikwad"));
+		System.out.println(list.get(2));
+		list.add(8,"Pramod");
+		list.add(9,"Gaikwad");
 		
 		System.out.println("ArrayList is " + list);
 		
