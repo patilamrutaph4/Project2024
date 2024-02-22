@@ -25,7 +25,10 @@ public class CollectionExamples {
 		while(itr.hasNext()){
 			System.err.println(itr.next());
 		}
+		LinkedList<String> ll=new LinkedList<>();
+		ll.addAll(list);
 		
+		System.out.println("Linked List is "+ ll);
 		
 		
 	}
